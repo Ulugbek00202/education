@@ -585,4 +585,8 @@ nav ul li a:hover {
     .future_item_text h2 {
         font-size: 16px;
     }
+
+    .future_item_image {
+        display: none;
+    }
 }
