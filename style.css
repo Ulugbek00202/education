@@ -208,6 +208,7 @@ nav ul li a:hover {
     font-size: 16px;
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 
 .title_button:hover {
@@ -318,6 +319,11 @@ nav ul li a:hover {
     border: none;
     border-radius: 4px;
     margin: 32px 0 0 0;
+    cursor: pointer;
+}
+
+.future_item_button:hover {
+    background-color: #000;
 }
 
 .future_item_image {
@@ -504,6 +510,7 @@ nav ul li a:hover {
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
     margin: 48px auto 0;
+    cursor: pointer;
 }
 
 .developer_button:hover {
@@ -525,6 +532,10 @@ nav ul li a:hover {
     font-size: 48px;
     font-weight: 700;
     color: rgba(34, 34, 34, 1);
+}
+
+.mentor_title h1 span {
+    color: rgba(8, 108, 249, 1);
 }
 
 .mentor_title p {
@@ -623,6 +634,10 @@ nav ul li a:hover {
     color: rgba(34, 34, 34, 1);
 }
 
+.event_title h1 span {
+    color: rgba(8, 108, 249, 1);
+}
+
 .event_title p {
     font-size: 16px;
     font-weight: 400;
@@ -636,12 +651,13 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 48px 0 0 0;
-    grid-gap: 20px  ;
+    grid-gap: 20px;
 }
 
 .event_cotent_info {
     max-width: 368px;
     box-shadow: 0px 12px 45px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
 }
 
 .event_content_image{
@@ -680,6 +696,249 @@ nav ul li a:hover {
 
 .navbar_button {
     display: none;
+}
+
+
+.event_content_date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 65px;
+    height: 62px;
+    background-color: rgba(8, 108, 249, 1);
+    border-top-left-radius: 6px;
+}
+
+.event_content_date h1, .event_content_date h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.teachers {
+    padding: 50px 0;
+}
+
+.teacherss {
+    padding: 72px 0;
+    background-color: rgba(211, 229, 254, 1);
+}
+
+.teacher_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.teacher_content_info {
+
+}
+
+.teacher_content_info h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(34, 34, 34, 1);
+}
+
+.teacher_content_info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(85, 85, 85, 1);
+}
+
+
+
+.blog {
+    padding: 50px 0;
+}
+
+.blog_title {
+    max-width: 419px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog_title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.blog_title h1 span {
+    color: rgba(8, 108, 249, 1);
+}
+
+.blog_title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(85, 85, 85, 1);
+    line-height: 24.8px;
+    margin: 12px 0 0 0;
+}
+
+
+
+.blog_content {
+    margin: 42px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+
+.blog_content_item {
+    max-width: 368px;
+}
+
+.blog_content_item img {
+    width: 100%;
+}
+
+.blog_content_text {
+    padding: 24px 29.5px 32px;
+    border: 0.5px solid rgba(191, 191, 191, 1);
+    border-top: none;
+}
+
+.blog_content_text h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(34, 34, 34, 1);
+}
+
+.blog_content_text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(68, 68, 68, 1);
+    margin: 16px 0 0 0;
+}
+
+.blog_content_text a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(8, 108, 249, 1);
+    margin: 24px 0 0 0;
+    display: block;
+}
+
+.blog_button {
+    width: 124px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(8, 108, 249, 1);
+    margin: 40px auto 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.blog_button:hover {
+    background-color: #000;
+}
+
+
+
+
+
+.students {
+    padding: 50px 0;
+}
+
+.students_title {
+    max-width: 543px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.students_title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.students_title h1 span {
+    color: rgba(8, 108, 249, 1);
+}
+
+.students_title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(85, 85, 85, 1);
+    margin: 12px 0 0 0;
+}
+
+
+.students_info {
+    max-width: 320px;
+    padding: 30px 24px 38px 15px;
+    box-shadow: 0px 13px 45px 0px rgba(0, 0, 0, 0.08);
+}
+
+.students_info_item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.students_info_text {
+    margin: 8px 0 8px 16px;
+}
+
+.students_info_text h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(34, 34, 34, 1);
+}
+
+.students_info_text h2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(85, 85, 85, 1);
+    margin: 8px 0 0 0;
+}
+
+.students_content {
+    display: flex;
+    align-items: center;
+    margin: 42px 0 0 0;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.students_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(213, 212, 212, 1);
+    cursor: pointer;
+}
+
+.students_image:hover {
+    background-color: rgba(8, 108, 249, 1);
+}
+
+.students_image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(8, 108, 249, 1);
+    cursor: pointer;
 }
 
 
@@ -723,6 +982,14 @@ nav ul li a:hover {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         grid-gap: 20px;
+    }
+    
+    .students_content {
+        justify-content: space-around;
+    }
+
+    .students_image, .students_image2 {
+        display: none;
     }
     
 
@@ -808,6 +1075,15 @@ nav ul li a:hover {
 
     .event_content {
         grid-template-columns: 1fr;
+    }
+
+    .teacher_content_info h1 {
+        font-size: 45px;
+    }
+
+    .blog_content {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 }
 
@@ -951,6 +1227,22 @@ nav ul li a:hover {
     .mentor_title p {
         font-size: 14px;
     }
+
+    .teacher_content {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 20px;
+    }
+
+    .teacher_content_info h1 {
+        font-size: 40px;
+    }
+    
+    .blog_content {
+        grid-template-columns: 1fr;
+    }
+
+
 }
 
 
@@ -1056,11 +1348,11 @@ nav ul li a:hover {
 
 
     .developer_info_item {
-        max-width: 340px;
+        max-width: 300px;
     }
 
     .developer_info_item img {
-        max-width: 290px;
+        max-width: 250px;
     }
 
     .mentor_title h1 {
@@ -1081,11 +1373,54 @@ nav ul li a:hover {
     }
 
 
+
+    .event_title h1 {
+        font-size: 30px;
+    }
+
+    .event_title p {
+        font-size: 12px;
+    }
+
     .event_cotent_info {
         max-width: 280px;
     }
     
     .event_content_text h3 {
         font-size: 10px;
+    }
+
+    .event_content_date {
+        width: 50px;
+        height: 50px;
+    }
+
+    .event_content_date h1, .event_content_date h2 {
+        font-size: 14px;
+    }
+
+
+    .teacher_content_info h1 {
+        font-size: 30px;
+    }
+
+    .teacher_content_info p {
+        font-size: 12px;
+    }
+
+    .blog_title h1 {
+        font-size: 30px;
+    }
+
+    .blog_title p {
+        font-size: 12px;
+    }
+
+    .students_title h1{
+        font-size: 30px;
+    }
+
+    .students_title p {
+        font-size: 12px;
     }
 }
