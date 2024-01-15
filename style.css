@@ -15,6 +15,28 @@ a {
     text-decoration: none;
 }
 
+/* .section_title {
+    max-width: 674px;
+    min-width: 419px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section_title_text {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.section_title_content {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    margin: 12px 0 0 0;
+    max-width: 419px;
+    
+} */
+
 header {
     
 }
@@ -45,7 +67,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 30px 20px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -723,6 +745,8 @@ nav ul li a:hover {
 
 .teachers {
     padding: 50px 0;
+    background: rgba(211, 229, 254, 1);
+
 }
 
 .teacherss {
@@ -1036,6 +1060,158 @@ nav ul li a:hover {
 
 
 
+footer {
+    background-color: rgb(211,229,254);
+    padding: 60px 0;
+}
+
+.footer_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+
+
+.footer_education {
+    max-width: 360px;
+}
+
+.footer_education h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(34, 34, 34, 1);
+}
+
+.footer_education p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 1);
+    line-height: 24.8px;
+    margin: 24px 0 0 0;
+}
+
+.footer_education h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(34, 34, 34, 1);
+    margin: 32px 0 0 0;
+}
+
+.footer_education_media {
+    margin: 24px 0 0 0;
+    max-width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_education_media a {
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+
+.footer_links {
+    max-width: 194px;
+    min-width: 180px;
+}
+
+.footer_links h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(34, 34, 34, 1);
+    max-width: 200px;
+}
+
+.footer_links ul {
+    margin: 24px 0 0 0;
+}
+
+.footer_links ul li {
+    list-style: none;
+    margin: 16px 0 0 0;
+}
+
+.footer_links ul li a span {
+    margin: 0 0 0 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(68, 68, 68, 1);
+}
+
+
+
+.footer_support {
+    max-width: 194px;
+}
+
+.footer_support h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(34, 34, 34, 1);
+}
+
+.footer_support ul {
+    margin: 24px 0 0 0;
+}
+
+.footer_support ul li {
+    list-style: none;
+    margin: 16px 0 0 0;
+}
+
+.footer_support ul li a span {
+    margin: 0 0 0 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(68, 68, 68, 1);
+}
+
+
+.footer_contact {
+    max-width: 203px;
+}
+
+.footer_contact h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(34, 34, 34, 1);
+}
+
+.footer_contact p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(85, 85, 85, 1);
+    line-height: 24.8px;
+    margin: 24px 0 0 0;
+}
+
+.footer_contact_phone {
+    display: flex;
+    align-items: center;
+}
+
+.footer_contact_phone {
+    margin-top: 16px;
+}
+
+.footer_contact_phone h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(68, 68, 68, 1);
+    margin: 0 0 0 8px;
+}
+
+
+
+
 
 
 
@@ -1180,6 +1356,12 @@ nav ul li a:hover {
 
     .email_title h1 {
         font-size: 30px;
+    }
+
+    .footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: last baseline;
+        gap: 70px;
     }
 }
 
@@ -1522,6 +1704,10 @@ nav ul li a:hover {
         font-size: 12px;
     }
 
+    .email_content {
+        padding: 30px 20px;
+    }
+
     .email_title {
         max-width: 120px;
     }
@@ -1544,5 +1730,16 @@ nav ul li a:hover {
 
     .email_button2 {
         display: block;
+    }
+
+    .footer_content {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 80px;
+    }
+
+
+    .footer_links {
+        justify-items: first baseline;
     }
 }
